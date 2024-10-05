@@ -1,0 +1,11 @@
+<?php
+// Example in PHP
+$confirmationType = 'whatsapp';  // Control which option to show
+
+if ($confirmationType == 'whatsapp') {
+    echo '
+    <div class="confirmation-option">
+        <a href="https://wa.me/15555555555" class="btn-whatsapp">Confirm via WhatsApp</a>
+    </div>';
+}
+?>
